@@ -365,13 +365,20 @@
       "cooked_beef": "2017-08-27 16:29:06 -0400",
       "apple": "2017-08-24 00:33:28 -0400",
       "bread": "2017-08-26 23:37:53 -0400",
-      "rotten_flesh": "2017-08-27 00:19:35 -0400"
+      "rotten_flesh": "2017-08-27 00:19:35 -0400",
+      "golden_carrot": "2017-08-29 22:47:56 -0400"
     },
     "done": false
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2017-08-24 01:05:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2017-08-29 21:33:50 -0400"
     },
     "done": true
   },
@@ -861,6 +868,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "zombie_pigman": "2017-08-29 21:33:49 -0400",
       "zombie_villager": "2017-08-26 23:54:32 -0400",
       "slime": "2017-08-27 00:57:53 -0400",
       "skeleton": "2017-08-26 23:48:29 -0400",
@@ -965,6 +973,12 @@
   "minecraft:recipes/building_blocks/gray_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2017-08-27 02:34:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_gold_nugget": "2017-08-29 22:47:06 -0400"
     },
     "done": true
   },
@@ -1572,6 +1586,7 @@
     "criteria": {
       "forest": "2017-08-24 01:02:38 -0400",
       "birch_forest": "2017-08-27 11:44:34 -0400",
+      "swampland": "2017-08-29 22:45:10 -0400",
       "beaches": "2017-08-27 16:58:59 -0400",
       "forest_hills": "2017-08-23 22:46:57 -0400",
       "plains": "2017-08-27 02:14:36 -0400",
@@ -1843,6 +1858,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_block": {
+    "criteria": {
+      "has_the_recipe": "2017-08-29 22:33:11 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_stone": "2017-08-27 00:15:47 -0400"
@@ -1924,6 +1945,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2017-08-27 00:21:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2017-08-29 22:33:11 -0400"
     },
     "done": true
   }
